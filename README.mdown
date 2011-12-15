@@ -1,0 +1,63 @@
+PizzaParty plugin for SiriProxy
+=================================
+
+This is a plugin for [SiriProxy](https://github.com/plamoni/SiriProxy) which will order you a pizza.
+
+Sample usage: "Siri, can you order a pizza for me?"
+
+[Demo video](todo)
+
+
+Shoutouts & thanks
+---------
+1) To Applidium (https://github.com/applidium/Cracking-Siri) for being the ground breakers for reversing Siri's protocol.
+ 
+2) To Plamoni (https://github.com/plamoni/SiriProxy) for creating SiriProxy. Without his work, none of this would be possible.
+
+3) To Senmu (https://github.com/senmu/SiriProxy-HockeyScores) for creating a plugin that got me interested in the project. Though I don't think any of his code is included in my work, it was my starting point with this project. I'll repay when I make my commits to the HockeyScores repo. 
+
+4) To Cory Arcangel (cory@post-data.org) and Michael Frumin (mfrumin@eyebeam.org). Thanks for being the first to order a pizza from the command line, dudes.
+
+5) To Travis Nickles (http://www.ryochan7.com/blog/tag/pizza-py-party/) the person who created Pizza-Py-Party. Though the latest public version of Pizza-Py-Party didn't work for me, I started with that and moved forward. Definitely a killer starting point.
+
+Stuff that can be done
+---------
+1) General code cleanup. Much of the stuff I did I hacked in to provide a proof of concept. This is not an elegant solution, it just works. TONS of work can be done to improve the code of this plugin.
+
+	-Trackdown and remove old relics from the original Pizza-Py-Party
+
+		-Old HTMLLib stuff is horrid, some has been removed
+
+		-Plenty of old commented out code, some from the original Pizza-Py-Party
+
+2) Plugin features:
+
+	-Support coupons in a real manner
+
+	-Support sides (sodas, wings, cinnasticks, etc)
+
+	-Go back and edit a pizza
+
+	-Support multiple addresses (deliver to home or office)
+
+	-Support delivery types (delivery or carryout)
+
+	-All sorts of input validation
+
+	-Siri interaction/behavior -- find and produce a more natural order script
+
+	-Toppings
+
+		-Allow for half pizza toppings (e.g. Pepperoni on left, Bacon on right)
+
+		-Allow for "extra" or "light" topping amounts (e.g. Extra cheese, light olives)
+
+		-Non default cheese and sauce options
+
+	-BUG: Quantities don't work. If you order three identical pizzas, you'll only get one. Fix that too.
+	
+3) Really ballsy? Make it support other companies (Papa Johns, Pizza Hut, whatever)
+
+Licensing
+---------
+Re-use of my code is fine under a Creative Commons 3.0 [Non-commercial, Attribution, Share-Alike](http://creativecommons.org/licenses/by-nc-sa/3.0/) license. In short, this means that you can use my code, modify it, do anything you want. Just don't sell it and make sure to give me a shout-out. Also, you must license your derivatives under a compatible license (sorry, no closed-source derivatives). If you would like to purchase a more permissive license (for a closed-source and/or commercial license), please contact me directly. See the Creative Commons site for more information.

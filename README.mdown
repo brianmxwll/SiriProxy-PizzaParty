@@ -5,7 +5,7 @@ This is a plugin for [SiriProxy](https://github.com/plamoni/SiriProxy) which wil
 
 Sample usage: "Siri, can you order a pizza for me?"
 
-[Demo video](todo)
+[Demo video](http://youtu.be/kie0dPBywnU)
 
 
 Shoutouts & thanks

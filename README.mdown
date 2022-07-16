@@ -18,7 +18,7 @@ Shoutouts & thanks
 
 4) To Cory Arcangel (cory@post-data.org) and Michael Frumin (mfrumin@eyebeam.org). Thanks for being the first to order a pizza from the command line, dudes.
 
-5) To Travis Nickles (http://www.ryochan7.com/blog/tag/pizza-py-party/) the person who created Pizza-Py-Party. Though the latest public version of Pizza-Py-Party didn't work for me, I started with that and moved forward. Definitely a killer starting point.
+5) To Travis Nickles ([Archived copy of http://www.ryochan7.com/blog/tag/pizza-py-party/](https://web.archive.org/web/20140521141459/http://www.ryochan7.com/blog/tag/pizza-py-party/)) the person who created Pizza-Py-Party. Though the latest public version of Pizza-Py-Party didn't work for me, I started with that and moved forward. Definitely a killer starting point.
 
 Stuff that can be done
 ---------
